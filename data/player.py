@@ -1,0 +1,20 @@
+class PlayerSubCodeEnum:
+    GetPlayerInfo = 1  # 取得玩家資訊
+    UpdateBirthday = 2  # 更新生日
+    UpdateEmail = 3  # 更新email
+    BindPhone = 4  # 綁定手機
+    UpdateHeadIcon = 5  # 更換頭像，上傳自訂頭像請查看API
+    UpdateHeadIconOuter = 6  # 更換頭像外框
+    AnonymouslyBindAuth = 7  # 匿名登入綁定其他登入
+    UpdateName = 8  # 更改暱稱
+    UpdatePassword = 9  # 更換密碼
+    UpdateHeadIconFromThird = 10  # 從第三方更換大頭貼
+    GetHeadIconAndHeadIconOuterList = 11  # 取得頭像&頭像外框清單
+    UpdateIntro = 12  # 更新自我介紹
+    SearchPlayerByName = 13  # 用名稱搜尋
+    SendBindPhoneSmsCode = 14  # 發送綁定手機的簡訊
+    GetClientSetting = 15  # 取得玩家前端設定 不需要request
+    UpdateClientSetting = 16  # 更新玩家前端設定 不回傳response 判斷success跟errCode
+    GetVipInfo = 17  # 取得玩家Vip資訊
+    ChangeVipLevel = 18  # 更改VIP等級
+    LevelUp = 19  # 升等

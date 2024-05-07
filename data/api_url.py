@@ -1,0 +1,25 @@
+class Env:
+    dev = "http://dev.way-win-game.com"
+    qa = "http://qa.way-win-game.com"
+
+
+class ApiPath:
+    change_password_forget = "/api/password/change_forget"
+    check_account = "/api/login/check_account"
+    forget_password = "/api/password/forget"
+    login_access_token = "/api/login/access_token"
+    login_account = "/api/login/account"
+    login_anonymously = "/api/login/anonymously"
+    login_google = "/api/login/google"
+    login_fb = "/api/login/fb"
+    login_apple = "/api/login/apple"
+    login_line = "/api/register/line"
+    register_account = "/api/register/account"
+    registry_anonymously = "/api/registry/anonymously"
+    send_email_code = "/api/common/send_email_code"
+    send_forget_password_sms_code = "/api/password/send_forget_sms_code"
+    upload_image = "/api/upload/player_head_icon"
+    get_client_config = "/api/common/get_client_config"
+    forget = "/api/password/forget"
+    change_forget = "/api/password/change_forget"
+    send_email_code = "/api/common/send_email_code"
